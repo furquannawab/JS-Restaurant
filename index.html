@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/restaurant.css">
+    <title>ZemosoRestaurant</title>
+</head>
+<body>
+    <section class="main">
+        <section class="table">
+            <header class="table-heading">Table</header>
+            <input type="search" onkeyup="tableSearch(event)" class="search-table" placeholder="Search table">
+            <ul class="table-list">
+            </ul>
+        </section>
+        <section class="menu">
+            <header class="menu-heading">Menu</header>
+            <input type="search" class="search-menu" onkeyup="menuSearch(event)" placeholder="Search menu by course or food">
+            <ul class="menu-list">
+            </ul>
+        </section>
+    </section>
+    <section class="modal_ele"></section>
+    
+    <script src="js/restaurant.js"></script>
+</body>
+</html>
